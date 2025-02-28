@@ -42,9 +42,9 @@ const weFunc = (a: string, b: number) => {
 weFunc("asssa", 12);
 
 class Player {
-  name: string;
-  age: number;
-  country: string;
+  private name: string;
+  public age: number;
+  readonly country: string;
 
   constructor(n: string, a: number, c: string) {
     this.name = n;
@@ -56,3 +56,7 @@ class Player {
   }
 }
 const sakib = new Player("sakib", 52, "BD");
+const players: Player[] = [];
+players.push(sakib);
+
+// Access Modifier means( public , private,readonly)
