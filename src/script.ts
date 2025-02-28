@@ -30,3 +30,13 @@ obj = {
   name: "afsa",
   age: "twenty",
 };
+// function
+let myFunc: Function;
+myFunc = () => {
+  console.log("ahana");
+};
+
+const weFunc = (a: string, b: number) => {
+  console.log(`this ${a} ${b}`);
+};
+weFunc("asssa", 12);
