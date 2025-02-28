@@ -1,3 +1,4 @@
 "use strict";
-const country = " I Love Bangladesh";
-console.log(country);
+let fruits = [];
+fruits.push(35);
+fruits.push("arabica");
